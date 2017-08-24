@@ -4,4 +4,8 @@
 
 
 #include <map>
+#include "Man.h"
 
+Man::Man(std::string name) : Person(name) {
+
+}

@@ -8,6 +8,7 @@
 #include <map>
 #include "Person.h"
 class Woman : public Person {
+public:
     Woman(std::string name);
     std::map<Person, int> preferenceMap;
 };

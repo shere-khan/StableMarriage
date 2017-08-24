@@ -8,9 +8,10 @@
 #include <iostream>
 
 class Person {
-private:
+protected:
     std::string name;
     Person *partner;
+private:
 public:
     Person();
     Person(std::string name);
